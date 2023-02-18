@@ -1,0 +1,152 @@
+<html lang="en">
+    <head>
+        <title>event page </title>
+    </head>
+    <body>
+    <div class="even-pge">
+        <h1>Event 1</h1>
+        <p style="font-size: 20px;">Number of avaliable seats : 23</p>
+        <div class="details">
+            <div class="child">
+                <div class="circle"> Image </div>
+            </div>
+            <div class="child1">
+                <label>Name:<input  class="name" type="text"  placeholder=""></label><br/>
+                <label>Email:<input class="mailid" type="mail" placeholder=""></label><br/>
+                <label>Phone No.:<input  class="phone" placeholder=""> </label><br/>
+                <label for="number">Number of seats:<select class="scro" name="number"><option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select> </label><br/>
+                <label>Name of Attendee 2:<input  class="atten" type="" placeholder=""> </label><br/>
+            <button class="btn">Submit</button>
+                <button class="btn">Cancel</button></div>
+            
+        </div>
+    </div>
+    <style>
+        button {
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    .even-pge{
+        width:100%;
+        height:100%;
+        box-sizing: border-box;
+        background-color: grey; 
+        border-style:solid;
+        border-color:black;
+        text-align:center;
+        background-color: bisque;
+
+     }  
+     .details{
+        width:90%;
+        height:75%;
+        box-sizing: border-box;
+        background-color: white; 
+        border-style:solid;
+        border-color:black;
+        margin:0 0 0 60px;
+        box-sizing: border-box;
+        display:flex;
+        flex-direction: row;
+        
+        
+
+     } 
+     .child{
+        width:25%;
+        height:65%;
+        box-sizing: border-box;
+        background-color:orange; 
+        border-style:solid;
+        border-color:black;
+        margin:40px 0 0 40px;
+        box-sizing: border-box;
+     }
+     .circle{
+        width:50%;
+        height:50%;
+        border-style:solid;
+        border-color: black;
+        border-radius: 50%;
+        margin:70px 0 0 70px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        background-color: blueviolet;
+
+    }
+    .child1{
+        width:70%;
+        height:85%;
+        box-sizing: border-box;
+        background-color: white; 
+        border-style:none;
+        margin:40px 60px 0 40px;
+        box-sizing: border-box;
+        justify-content: right;
+        font-size: 25px;
+        text-align:right;
+        justify-content:space-around ;
+        line-height: 200%;
+    }
+    .name{
+        height:auto;
+        width:60%;
+        border-style: solid;
+    }
+    .mailid{
+        height:auto;
+        width:60%;
+        border-style: solid;
+    }
+    .phone{
+        height:auto;
+        width:60%;
+        border-style: solid;
+    }
+    .scro{
+        height:auto;
+        width:60%;
+        border-style: solid;
+    }
+    .atten{
+        height:auto;
+        width:60%;
+        border-style: solid;
+    }
+    .btn{
+        height:auto;
+        width:30%;
+                
+    }
+    @media screen and (max-width:970px)
+    {
+        .even-pge{
+            background:aqua;
+        }
+        .details {
+            
+         display:flex;
+         flex-direction:column;
+         overflow: auto;
+        }
+        .child1{
+            display:block;
+           
+        }
+    }
+        
+    
+    </style>
+    </body>
+</html>
